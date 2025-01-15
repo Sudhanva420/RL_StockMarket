@@ -1,1 +1,1 @@
-# RL_StockMarket
+This repository implements a custom reinforcement learning (RL) environment for stock market trading. The environment incorporates both price data (from yfinance) and quarterly fundamental data, given that fundamental data is what indicates and is used to value companies. The RL agent learns to make trading decisions (Buy, Sell, Hold) by combining these two types of data. This is done for equities in the Indian Stock Market and we are going to use both quarterly reports and analyst reports.
